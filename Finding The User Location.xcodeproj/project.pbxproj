@@ -14,6 +14,7 @@
 		038122F61ED76A350083E4FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 038122F41ED76A350083E4FE /* LaunchScreen.storyboard */; };
 		038123011ED76A360083E4FE /* Finding_The_User_LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038123001ED76A360083E4FE /* Finding_The_User_LocationTests.swift */; };
 		0381230C1ED76A360083E4FE /* Finding_The_User_LocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0381230B1ED76A360083E4FE /* Finding_The_User_LocationUITests.swift */; };
+		0381231B1ED76A520083E4FE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0381231A1ED76A520083E4FE /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		038123071ED76A360083E4FE /* Finding The User LocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Finding The User LocationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0381230B1ED76A360083E4FE /* Finding_The_User_LocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finding_The_User_LocationUITests.swift; sourceTree = "<group>"; };
 		0381230D1ED76A360083E4FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0381231A1ED76A520083E4FE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0381231B1ED76A520083E4FE /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				038122FF1ED76A360083E4FE /* Finding The User LocationTests */,
 				0381230A1ED76A360083E4FE /* Finding The User LocationUITests */,
 				038122E91ED76A350083E4FE /* Products */,
+				038123191ED76A520083E4FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				0381230D1ED76A360083E4FE /* Info.plist */,
 			);
 			path = "Finding The User LocationUITests";
+			sourceTree = "<group>";
+		};
+		038123191ED76A520083E4FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0381231A1ED76A520083E4FE /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
